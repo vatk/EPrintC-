@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ePrint>
+  <crendential>
+    <username>admin@hp.com</username>
+    <password>admin</password>
+  </crendential>
+  <crendential>
+    <username>vijay@ee.in</username>
+    <password>Iso*help</password>
+  </crendential>
+  <ManagePrinter>    
+    <NewPrinter>
+      <PrinterName>New Printer</PrinterName>
+      <ModelName>HP</ModelName>
+      <PrinterAddress>10.11.13.239</PrinterAddress>
+      <Latitude>12.919860330265125</Latitude>
+      <Longitude>77.49945854923772</Longitude>
+      <Description>New Building</Description>
+      <Room>1st Printer Lab</Room>
+      <Floor>2nd Floor</Floor>
+      <Building>Tower E</Building>
+      <Address>Mphasis Global Village</Address>
+      <City>Bangalore</City>
+      <State>Karnatka</State>
+      <Country>India</Country>
+    </NewPrinter>    
+    <AfterDelete>
+      <PrinterName>After Delete</PrinterName>
+      <ModelName>HP</ModelName>
+      <PrinterAddress>10.11.12.224</PrinterAddress>
+      <Latitude>12.919860330265125</Latitude>
+      <Longitude>77.49945854923772</Longitude>
+      <Description>New Building</Description>
+      <Room>1st Printer Lab</Room>
+      <Floor>2nd Floor</Floor>
+      <Building>Tower E</Building>
+      <Address>Mphasis Global Village</Address>
+      <City>Bangalore</City>
+      <State>Karnatka</State>
+      <Country>India</Country>
+    </AfterDelete>    
+  </ManagePrinter>
+  <Host>
+    <EditHost>
+      <Version>2.0</Version>
+      </EditHost>
+    <NewHost>
+      <HostName>autoNew.ee.in</HostName>
+      <PortNumber>443</PortNumber>
+      <Smtp>cloudprint@auto.ee.in</Smtp>
+      <Version>4.0</Version>
+      <Notes>Secondary from settings</Notes>  
+    </NewHost>
+  </Host>
+  <User>
+    <Regular>
+      <emailAccount>Ravi@ee.in</emailAccount>
+      <pin>1111</pin>
+    </Regular>
+    <Guest>
+      <emailAccount>vijayK@ee.in</emailAccount>
+      <pin>2222</pin>
+    </Guest>
+    <Admin>
+      <EmailAccount>Vijay@ee.in</EmailAccount>
+      <Pin>3333</Pin>
+      <Password>Iso*help</Password>
+      <ConfirmPassword>Iso*help</ConfirmPassword>
+      <PassworTips>ePrint</PassworTips>
+    </Admin>
+    <Wifi>
+      <emailAccount>Guru@ee.in</emailAccount>
+      <pin>4444</pin>
+    </Wifi>
+  </User>  
+</ePrint>
+
